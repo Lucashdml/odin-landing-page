@@ -74,7 +74,15 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 50px;
   background-color: #e5e7eb;
+}
+
+.textCt3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 500px;
 }
 
 .container4 {
@@ -112,4 +120,6 @@ button {
   background: royalblue;
   border: 1px solid royalblue;
   color: white;
+  display: flex;
+  margin: 25px;
 }
