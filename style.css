@@ -4,6 +4,17 @@ body {
   justify-content: space-between;
 }
 
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.links {
+  display: flex;
+  gap: 1rem;
+}
+
 .imageCt1 {
   display: flex;
   width: 150px;
@@ -26,4 +37,12 @@ body {
 img {
   width: 100px;
   height: 100px;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
 }
