@@ -31,11 +31,18 @@ body {
 .container1 {
   display: flex;
   flex: 1;
+  background-color: #1f2937;
 }
 
 #titleContainer1 {
   font-size: 48px;
   font-weight: 800;
+  color: #f9faf8;
+}
+
+#subtextContainer1 {
+  height: 18px;
+  color: #e5e7eb;
 }
 
 .imageCt1 {
