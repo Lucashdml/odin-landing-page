@@ -14,6 +14,10 @@ body {
 }
 
 .container2 {
+  text-align: center;
+}
+
+.imageCt2 {
   display: flex;
   justify-content: center;
   gap: 52px;
