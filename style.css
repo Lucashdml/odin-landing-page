@@ -1,0 +1,25 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.imageCt1 {
+  display: flex;
+  width: 150px;
+}
+
+.info {
+  max-width: 200px;
+}
+
+.container2 {
+  display: flex;
+  justify-content: center;
+  gap: 52px;
+}
+
+img {
+  width: 100px;
+  height: 100px;
+}
