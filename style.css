@@ -37,6 +37,10 @@ body {
   gap: 30px;
 }
 
+#textContainer1 {
+  width: 350px;
+}
+
 #titleContainer1 {
   font-size: 48px;
   font-weight: 800;
@@ -45,15 +49,13 @@ body {
 }
 
 #subtextContainer1 {
-  height: 18px;
   color: #e5e7eb;
   display: flex;
-  flex: 0 0 auto;
 }
 
 .imageCt1 {
   display: flex;
-  width: 150px;
+  width: 200px;
 }
 
 .info {
@@ -120,6 +122,5 @@ button {
   background: royalblue;
   border: 1px solid royalblue;
   color: white;
-  display: flex;
   margin: 25px;
 }
