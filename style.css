@@ -40,8 +40,20 @@ body {
   padding: 60px;
 }
 
+.ctText1 {
+  display: flex;
+  flex-direction: column;
+}
+
+.signUp1 {
+  display: flex;
+}
+
 #textContainer1 {
   width: 350px;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
 }
 
 #titleContainer1 {
@@ -58,7 +70,9 @@ body {
 
 .imageCt1 {
   display: flex;
-  width: 200px;
+  width: 300px;
+  height: auto;
+  background-color: #f9faf8;
 }
 
 .info {
@@ -78,6 +92,9 @@ body {
 
 .title {
   margin-bottom: 30px;
+  font-size: 36px;
+  font-weight: 800;
+  color: #1f2937;
 }
 
 .container3 {
@@ -86,6 +103,14 @@ body {
   align-items: center;
   padding: 50px;
   background-color: #e5e7eb;
+  flex-direction: column;
+}
+
+.ctAutor {
+  display: flex;
+  width: 500px;
+  justify-content: end;
+  font-weight: 700;
 }
 
 .textCt3 {
@@ -97,6 +122,31 @@ body {
 
 .container4 {
   display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 70px;
+}
+
+.blue-box {
+  display: flex;
+  width: 500px;
+  background-color: royalblue;
+  border-radius: 8px;
+  justify-content: space-between;
+  align-items: center;
+  padding: 18px 40px;
+}
+
+.ct4Title {
+  font-weight: 800;
+}
+
+.ct4Text {
+  display: flex;
+  flex-direction: column;
+  color: #e5e7eb;
+  width: 400px;
+  gap: 5px;
 }
 
 img {
@@ -117,7 +167,7 @@ ul {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: auto;
+
   height: 60px;
   background-color: #1f2937;
   color: white;
@@ -128,7 +178,7 @@ button {
   padding: 8px 16px;
   border-radius: 8px;
   background: royalblue;
-  border: 1px solid royalblue;
+  border: 1px solid rgb(238, 240, 247);
   color: white;
-  margin: 25px;
+  margin: px;
 }
